@@ -1,0 +1,20 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install-deps && npx playwright install",
+    "report": "npx playwright show-report --host=0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  },
+  "dependencies": {
+    "npm": "^11.2.0"
+  }
+}
